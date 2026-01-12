@@ -1,0 +1,34 @@
+# --- Security & Credentials ---
+.env
+.env.local
+.env.*.local
+
+# --- Go Specific ---
+bin/
+main
+spyraven
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+*.test
+*.out
+coverage.txt
+
+
+# --- IDE & Editors ---
+.idea/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+
+# --- Project Specific Logs ---
+*.log
+results/
