@@ -39,16 +39,16 @@ You can run RavenIntel using command-line flags or the interactive menu.
 
 ### Scan an IP Address
 ```bash
-go run cmd/RavenIntel/main.go -t 141.98.10.20
+go run cmd/raven/main.go -t 141.98.10.20
 ```
 
 ### Scan a Malware Hash
 ```bash
-go run cmd/RavenIntel/main.go -t 098f6bcd4621d373cade4e832627b4f6
+go run cmd/raven/main.go -t 098f6bcd4621d373cade4e832627b4f6
 ```
 
 ### Scan a Suspicious URL
 ```bash
-go run cmd/RavenIntel/main.go -t http://suspicious-site.com
+go run cmd/raven/main.go -t http://suspicious-site.com
 ```
 ---
